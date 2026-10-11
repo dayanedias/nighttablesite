@@ -2718,6 +2718,11 @@ A mesa já tem {} arquivos. Apague algum antes de enviar outro. ⇒ The table al
 Tipo de arquivo não aceito. Envie PDF, imagem, áudio, texto, documento do Office/LibreOffice ou ZIP. ⇒ File type not accepted. Upload a PDF, image, audio, text, Office/LibreOffice document or ZIP.
 Arquivo grande demais ({} MB). O limite é {} MB. ⇒ File too large ({} MB). The limit is {} MB.
 O arquivo está vazio. ⇒ The file is empty.
+Arsenal do {} ⇒ {} arsenal
+Escolher do arsenal ⇒ Choose from the arsenal
+Escolha uma arma, proteção ou item… ⇒ Choose a weapon, protection or item…
+Pôr na ficha ⇒ Add to sheet
+{} pegou {} do arsenal ⇒ {} took {} from the arsenal
 `;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
