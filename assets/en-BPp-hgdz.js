@@ -2494,6 +2494,20 @@ combates ⇒ combats
 decisões ⇒ decisions
 itens ⇒ items
 {} de {} ({}%) ⇒ {} of {} ({}%)
+Partes do livro ⇒ Book sections
+Livro do sistema ⇒ System book
+Buscar no livro (ex.: crítico, defesa, ritual) ⇒ Search the book (e.g. critical, defense, ritual)
+Buscar no livro do sistema ⇒ Search the system book
+Nada encontrado no livro com essa busca. ⇒ Nothing found in the book for that search.
+Copiar para o compêndio (para ajustar como regra da casa) ⇒ Copy to the compendium (to adjust as a house rule)
+Resumo das regras do sistema, montado com as regras desta mesa. O texto completo de cada regra, classe e poder está no livro oficial do sistema. ⇒ Summary of the system rules, built from this table's rules. The full text of each rule, class and power is in the system's official book.
+Os resumos de D&D 5e seguem o SRD 5.1 (Wizards of the Coast, CC-BY-4.0). ⇒ The D&D 5e summaries follow the SRD 5.1 (Wizards of the Coast, CC-BY-4.0).
+Visão geral ⇒ Overview
+Como jogar ⇒ How to play
+Teste básico ⇒ Basic check
+Crítico e falha crítica ⇒ Critical and critical failure
+Recursos e dinheiro ⇒ Resources and money
+Defesa e iniciativa ⇒ Defense and initiative
 `;function u(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
