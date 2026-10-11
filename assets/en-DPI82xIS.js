@@ -1967,7 +1967,7 @@ Névoa animada ⇒ Animated fog
 Brasas ⇒ Embers
 Poeira ⇒ Dust
 Idioma ⇒ Language
-`,c=String.raw`
+`,m=String.raw`
 O teste de {} foi bem-sucedido e revelou algo útil na cena. ⇒ The {} check succeeded and revealed something useful in the scene.
 {} não cedeu. ⇒ {} didn't give way.
 A dificuldade era {}. Talvez outra perícia ou abordagem resolva isso. ⇒ The difficulty was {}. Maybe another skill or approach will work.
@@ -2296,7 +2296,7 @@ Rodada {} ⇒ Round {}
 rodada {} ⇒ round {}
 Rodada ⇒ Round
 rodada ⇒ round
-`,m=String.raw`
+`,c=String.raw`
 Ficha sem nome ⇒ Untitled sheet
 Maya K. voltou para a visão de jogadora ⇒ Maya K. went back to the player view
 {} foi silenciado no chat ⇒ {} was muted in chat
@@ -2667,7 +2667,16 @@ Música do Spotify ⇒ Spotify track
 {} tocando para todos ⇒ {} playing for everyone
 Mestre tocou {} ⇒ GM played {}
 Mestre parou {} ⇒ GM stopped {}
+Remover {} do mapa? Os itens dentro dele também saem. ⇒ Remove {} from the map? The items inside it are removed too.
+Remover todos os {} objetos e sprites desta cena? Os itens dentro deles também saem. ⇒ Remove all {} objects and sprites from this scene? The items inside them are removed too.
+Mestre removeu todos os objetos do cenário ⇒ GM removed all objects from the scene
+Objetos removidos do cenário ⇒ Objects removed from the scene
+Remover do mapa ⇒ Remove from map
+Remover todos do mapa ⇒ Remove all from map
+No mapa, botão direito num objeto (ou Delete com ele selecionado) também remove. ⇒ On the map, right-clicking an object (or Delete with it selected) also removes it.
+Abrir {} (arraste para mover; botão direito ou Delete remove) ⇒ Open {} (drag to move; right-click or Delete removes)
+Abrir {} (botão direito ou Delete remove) ⇒ Open {} (right-click or Delete removes)
 `;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
-`)}return o}const p=h(i,n,d,l,c,m,u);export{p as default,h as parseDictionary};
+`)}return o}const p=h(i,n,d,l,m,c,u);export{p as default,h as parseDictionary};
