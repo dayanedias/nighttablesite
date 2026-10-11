@@ -2644,6 +2644,29 @@ A galeria local guarda até {} envios. Apague algum antes. ⇒ The local gallery
 A galeria local encheu este navegador. Apague um envio antigo e tente de novo. ⇒ The local gallery filled up this browser. Delete an old submission and try again.
 Próxima rolagem em {} s ⇒ Next roll in {} s
 Aguarde {} s para rolar de novo. ⇒ Wait {} s to roll again.
+YouTube e Spotify · cole o link de um vídeo, música ou playlist ⇒ YouTube and Spotify · paste a link to a video, song or playlist
+Link do YouTube ou do Spotify ⇒ YouTube or Spotify link
+Nome para a mesa (opcional) ⇒ Name for the table (optional)
+Nome do link ⇒ Link name
+Esse link não é do YouTube nem do Spotify. ⇒ This link isn't from YouTube or Spotify.
+Tocar para todos ⇒ Play for everyone
+Parar link ⇒ Stop link
+No ar: {} ⇒ Playing: {}
+O YouTube começa sozinho para todos, no mesmo ponto. O Spotify toca a música inteira para quem está logado no Spotify neste navegador (sem login, só a prévia de 30 s), e cada um aperta o play. ⇒ YouTube starts on its own for everyone, at the same point. Spotify plays full tracks for whoever is logged in to Spotify in this browser (without login, only the 30 s preview), and each person presses play.
+Player de música da mesa ⇒ Table music player
+Abrir no site ⇒ Open on the site
+Mostrar player ⇒ Show player
+Minimizar player ⇒ Minimize player
+Fechar player só para mim ⇒ Close player just for me
+Fechar só para mim ⇒ Close just for me
+Vídeo do YouTube ⇒ YouTube video
+Playlist do YouTube ⇒ YouTube playlist
+Playlist do Spotify ⇒ Spotify playlist
+Música do Spotify ⇒ Spotify track
+Álbum do Spotify ⇒ Spotify album
+{} tocando para todos ⇒ {} playing for everyone
+Mestre tocou {} ⇒ GM played {}
+Mestre parou {} ⇒ GM stopped {}
 `;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
