@@ -2555,7 +2555,94 @@ Tela cheia ⇒ Full screen
 Sobre a campanha ⇒ About the campaign
 Página pública da campanha · ⇒ Campaign public page ·
 Não coube neste navegador. Revogue um link antigo e tente de novo. ⇒ It didn't fit in this browser. Revoke an old link and try again.
-`;function u(...t){const o={};for(const r of t)for(const e of r.split(`
+`,u=String.raw`
+galeria da comunidade ⇒ community gallery
+Galeria da comunidade ⇒ Community gallery
+Fechar galeria ⇒ Close gallery
+Partes da galeria ⇒ Gallery sections
+Explorar ⇒ Explore
+Publicar ⇒ Publish
+Meus envios ({}) ⇒ My submissions ({})
+Moderação ({}) ⇒ Moderation ({})
+Meus envios ⇒ My submissions
+Buscar mapas, fichas e macros ⇒ Search maps, sheets and macros
+Buscar na galeria ⇒ Search the gallery
+Tipo de conteúdo ⇒ Content type
+Mapas ⇒ Maps
+Fichas ⇒ Sheets
+A galeria ainda está vazia. Publique um mapa, uma ficha ou uma macro: depois da moderação, todos os Mestres podem usar. ⇒ The gallery is still empty. Publish a map, a sheet or a macro: after moderation, every GM can use it.
+Conteúdos da galeria ⇒ Gallery content
+Usar nesta mesa ⇒ Use at this table
+Usar {} nesta mesa ⇒ Use {} at this table
+Denunciar ⇒ Report
+Denunciar {} ⇒ Report {}
+Por que denunciar? (opcional) ⇒ Why report it? (optional)
+Tirar do ar ⇒ Take down
+Publicar na galeria ⇒ Publish to the gallery
+Tipo do envio ⇒ Submission type
+Conteúdo a publicar ⇒ Content to publish
+A mesa não tem mapa enviado ⇒ The table has no uploaded map
+Nada para publicar ⇒ Nothing to publish
+Ex.: Taverna do porto (30×20) ⇒ E.g.: Harbor tavern (30×20)
+Para que serve, sistema, nível, de onde veio a imagem... ⇒ What it's for, system, level, where the image came from...
+Descrição do envio ⇒ Submission description
+Ex.: taverna, cidade, noite ⇒ E.g.: tavern, city, night
+Fui eu que fiz este conteúdo ou tenho permissão para compartilhá-lo, e ele não tem nada ofensivo ou ilegal. ⇒ I made this content or have permission to share it, and it has nothing offensive or illegal.
+Enviando… ⇒ Sending…
+Enviar para análise ⇒ Submit for review
+O envio fica "em análise" e só aparece para os outros Mestres depois que a moderação aprovar. Fichas vão sem dono, notas privadas nem histórico. ⇒ The submission stays "under review" and only shows up for other GMs after moderation approves it. Sheets go without owner, private notes or history.
+Para publicar na galeria, entre com uma conta cadastrada. ⇒ To publish to the gallery, sign in with a registered account.
+Você ainda não enviou nada para a galeria. ⇒ You haven't sent anything to the gallery yet.
+Apagar {} da galeria ⇒ Delete {} from the gallery
+Apagar "{}" da galeria? ⇒ Delete "{}" from the gallery?
+Nada esperando moderação. ⇒ Nothing waiting for moderation.
+Fila de moderação ⇒ Moderation queue
+Ver conteúdo ⇒ View content
+Ver o conteúdo de {} ⇒ View the content of {}
+Devolver ao ar ⇒ Restore
+Aprovar ⇒ Approve
+Aprovar {} ⇒ Approve {}
+Recusar ⇒ Reject
+Recusar {} ⇒ Reject {}
+Motivo da recusa (o autor vê): ⇒ Reason for rejection (the author sees it):
+Apagar "{}" de vez? ⇒ Delete "{}" for good?
+Modo local: a galeria fica só neste navegador e você é o moderador, para conhecer o fluxo. Nas mesas online ela é compartilhada entre todos os Mestres. ⇒ Local mode: the gallery stays in this browser only and you are the moderator, to try out the flow. At online tables it is shared among all GMs.
+Moderada: envios passam por análise; com {} denúncias, o item sai do ar até a moderação rever. ⇒ Moderated: submissions are reviewed; with {} reports, an item is taken down until moderation reviews it.
+em análise ⇒ under review
+aprovado ⇒ approved
+recusado ⇒ rejected
+fora do ar (denúncias) ⇒ taken down (reports)
+{} denúncia(s) ⇒ {} report(s)
+Motivo: ⇒ Reason:
+por ⇒ by
+Prévia do mapa enviado ⇒ Preview of the submitted map
+Prévia do conteúdo enviado ⇒ Preview of the submitted content
+Conteúdo indisponível. ⇒ Content unavailable.
+Mapas, fichas e macros que os Mestres compartilham. Use na sua mesa com um clique ou publique os seus; tudo passa por moderação antes de aparecer. ⇒ Maps, sheets and macros GMs share. Use them at your table in one click or publish your own; everything goes through moderation before showing up.
+Abrir galeria ⇒ Open gallery
+Enviado para análise da moderação ⇒ Sent for moderation review
+Mapa "{}" na mesa ⇒ Map "{}" on the table
+Ficha de {} trazida da galeria ⇒ {}'s sheet brought from the gallery
+Denúncia enviada à moderação ⇒ Report sent to moderation
+Você já denunciou este item. ⇒ You already reported this item.
+Aprovado: já aparece na galeria ⇒ Approved: it now shows in the gallery
+De volta à galeria ⇒ Back in the gallery
+Envio recusado ⇒ Submission rejected
+Tirado do ar ⇒ Taken down
+Apagado da galeria ⇒ Deleted from the gallery
+Mapa da galeria ⇒ Gallery map
+Este conteúdo não está mais disponível. ⇒ This content is no longer available.
+Não foi possível abrir a galeria. Confira se as regras do Firestore foram publicadas. ⇒ Couldn't open the gallery. Check that the Firestore rules were published.
+Sem permissão na galeria. Confira se as regras do Firestore foram publicadas (npm run deploy:rules). ⇒ No permission in the gallery. Check that the Firestore rules were published (npm run deploy:rules).
+Não foi possível concluir na galeria. ⇒ Couldn't finish in the gallery.
+Escolha o tipo do conteúdo. ⇒ Choose the content type.
+Dê um título ao conteúdo. ⇒ Give the content a title.
+Confirme que você pode compartilhar este conteúdo. ⇒ Confirm that you can share this content.
+A mesa não tem um mapa enviado para compartilhar. ⇒ The table has no uploaded map to share.
+Escolha o que compartilhar. ⇒ Choose what to share.
+A galeria local guarda até {} envios. Apague algum antes. ⇒ The local gallery holds up to {} submissions. Delete one first.
+A galeria local encheu este navegador. Apague um envio antigo e tente de novo. ⇒ The local gallery filled up this browser. Delete an old submission and try again.
+`;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
-`)}return o}const h=u(i,n,d,l,c,m);export{h as default,u as parseDictionary};
+`)}return o}const p=h(i,n,d,l,c,m,u);export{p as default,h as parseDictionary};
