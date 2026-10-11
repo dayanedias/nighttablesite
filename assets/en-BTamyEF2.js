@@ -2676,6 +2676,48 @@ Remover todos do mapa ⇒ Remove all from map
 No mapa, botão direito num objeto (ou Delete com ele selecionado) também remove. ⇒ On the map, right-clicking an object (or Delete with it selected) also removes it.
 Abrir {} (arraste para mover; botão direito ou Delete remove) ⇒ Open {} (drag to move; right-click or Delete removes)
 Abrir {} (botão direito ou Delete remove) ⇒ Open {} (right-click or Delete removes)
+Arquivos da campanha ⇒ Campaign files
+Arquivos da campanha ({}) ⇒ Campaign files ({})
+Buscar arquivo (nome, descrição, PDF, imagem…) ⇒ Search files (name, description, PDF, image…)
+Buscar nos arquivos da campanha ⇒ Search campaign files
+Nenhum arquivo ainda. Envie PDFs, mapas, imagens, cartas e regras da campanha: os jogadores abrem e baixam por aqui. ⇒ No files yet. Upload the campaign's PDFs, maps, images, letters and rules: players open and download them here.
+O Mestre ainda não enviou arquivos para a campanha. ⇒ The GM hasn't uploaded campaign files yet.
+Nenhum arquivo com essa busca. ⇒ No files match this search.
+Abrir ⇒ Open
+Baixar ⇒ Download
+Abrir {} ⇒ Open {}
+Baixar {} ⇒ Download {}
+Apagar {} ⇒ Delete {}
+Abrir arquivo {} ⇒ Open file {}
+Enviar arquivo da campanha ⇒ Upload campaign file
+Nome na wiki ⇒ Name in the wiki
+Nome do arquivo na wiki ⇒ File name in the wiki
+Descrição (opcional) ⇒ Description (optional)
+Descrição do arquivo ⇒ File description
+Ex.: mapa do porão, leiam antes da sessão 3 ⇒ E.g.: basement map, read before session 3
+Enviando… ⇒ Uploading…
+Enviar para a wiki ⇒ Send to the wiki
+Escolher arquivo da campanha ⇒ Choose campaign file
+Enviar arquivo ⇒ Upload file
+PDF, imagem, áudio, texto, documento do Office/LibreOffice ou ZIP, até {} MB cada. Todos da mesa abrem e baixam pelo livro no topo da tela. ⇒ PDF, image, audio, text, Office/LibreOffice document or ZIP, up to {} MB each. Everyone at the table opens and downloads them from the book at the top of the screen.
+PDF, imagem, áudio, texto, documento do Office/LibreOffice ou ZIP, até {} MB cada. Todos da mesa abrem e baixam pelo livro no topo da tela. No modo local, os arquivos ficam só nesta aba até recarregar. ⇒ PDF, image, audio, text, Office/LibreOffice document or ZIP, up to {} MB each. Everyone at the table opens and downloads them from the book at the top of the screen. In local mode, files stay only in this tab until reload.
+arquivos da campanha · {} ⇒ campaign files · {}
+Arquivos da campanha recentes ⇒ Recent campaign files
+Ver todos na wiki ⇒ See all in the wiki
+Novo arquivo da campanha na wiki: {} ⇒ New campaign file in the wiki: {}
+"{}" está na wiki da campanha ⇒ "{}" is in the campaign wiki
+Sem permissão para enviar arquivos. ⇒ No permission to upload files.
+Não foi possível enviar o arquivo. ⇒ Couldn't upload the file.
+Não foi possível abrir o arquivo. ⇒ Couldn't open the file.
+Não foi possível ler o arquivo. ⇒ Couldn't read the file.
+Apagar "{}" dos arquivos da campanha? ⇒ Delete "{}" from the campaign files?
+Arquivo apagado ⇒ File deleted
+Arquivo não encontrado. ⇒ File not found.
+Escolha um arquivo. ⇒ Choose a file.
+A mesa já tem {} arquivos. Apague algum antes de enviar outro. ⇒ The table already has {} files. Delete one before uploading another.
+Tipo de arquivo não aceito. Envie PDF, imagem, áudio, texto, documento do Office/LibreOffice ou ZIP. ⇒ File type not accepted. Upload a PDF, image, audio, text, Office/LibreOffice document or ZIP.
+Arquivo grande demais ({} MB). O limite é {} MB. ⇒ File too large ({} MB). The limit is {} MB.
+O arquivo está vazio. ⇒ The file is empty.
 `;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
