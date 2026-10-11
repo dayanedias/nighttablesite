@@ -2508,6 +2508,53 @@ Teste básico ⇒ Basic check
 Crítico e falha crítica ⇒ Critical and critical failure
 Recursos e dinheiro ⇒ Resources and money
 Defesa e iniciativa ⇒ Defense and initiative
+apresentação e página pública ⇒ presentation and public page
+Validade do link ⇒ Link expiry
+Validade do link público ⇒ Public link expiry
+Apresentar a cena atual ⇒ Present the current scene
+Uma foto do mapa como os jogadores veem agora (sem tokens ocultos nem o que está na névoa), com o nome da cena. Abre em tela cheia numa TV, projetor ou para quem não está na mesa. ⇒ A snapshot of the map as players see it now (no hidden tokens or anything under the fog), with the scene name. It opens full screen on a TV, a projector or for people who are not at the table.
+Mostrar o texto de abertura da cena ⇒ Show the scene's opening text
+Gerando… ⇒ Generating…
+Gerar link de apresentação ⇒ Generate presentation link
+Página pública da campanha ⇒ Campaign public page
+Para divulgar a mesa ou chamar jogadores: nome, subtítulo, sistema e tags, e o que você marcar abaixo. Não mostra chat, fichas nem o mapa. ⇒ To promote the table or recruit players: name, subtitle, system and tags, plus what you check below. It doesn't show chat, sheets or the map.
+O que a página mostra ⇒ What the page shows
+Descrição ⇒ Description
+Imagem de capa ⇒ Cover image
+Próximas sessões ⇒ Upcoming sessions
+Atualizar a página da campanha ⇒ Update the campaign page
+Publicar página da campanha ⇒ Publish campaign page
+links ativos ⇒ active links
+Nenhum link público. Quem não tiver o link não vê nada. ⇒ No public links. Without the link, nobody sees anything.
+Links públicos ⇒ Public links
+Apresentação de cena ⇒ Scene presentation
+Página da campanha ⇒ Campaign page
+Copiar link ⇒ Copy link
+Copiar link de {} ⇒ Copy link for {}
+Revogar link de {} ⇒ Revoke link for {}
+No modo local, o link só abre neste navegador. Nas mesas online ele funciona para qualquer pessoa, sem conta. ⇒ In local mode, the link only opens in this browser. At online tables it works for anyone, without an account.
+Qualquer pessoa com o link vê a página, sem conta, até vencer ou você revogar. Revogar apaga a página na hora. ⇒ Anyone with the link sees the page, without an account, until it expires or you revoke it. Revoking deletes the page right away.
+Link público copiado ⇒ Public link copied
+Link público: {} ⇒ Public link: {}
+Link revogado ⇒ Link revoked
+Revogar o link de "{}"? Quem abrir o link não vê mais nada. ⇒ Revoke the link for "{}"? Anyone opening the link will no longer see anything.
+Não foi possível criar o link. ⇒ Couldn't create the link.
+Sem permissão. Confira se as regras do Firestore foram publicadas (npm run deploy:rules). ⇒ No permission. Check that the Firestore rules were published (npm run deploy:rules).
+Mestre criou um link de apresentação da cena {} ⇒ GM created a presentation link for the scene {}
+abrindo a página… ⇒ opening the page…
+Não foi possível abrir a página ⇒ Couldn't open the page
+Link indisponível ⇒ Link unavailable
+Confira sua internet e tente de novo. ⇒ Check your internet and try again.
+Este link venceu, foi revogado pelo Mestre ou não existe. Peça um link novo a quem compartilhou. ⇒ This link has expired, was revoked by the GM or doesn't exist. Ask whoever shared it for a new link.
+Ir para o NightTable ⇒ Go to NightTable
+Apresentação: {} ⇒ Presentation: {}
+Mapa da cena {} ⇒ Map of the scene {}
+Esconder texto ⇒ Hide text
+Mostrar texto ⇒ Show text
+Tela cheia ⇒ Full screen
+Sobre a campanha ⇒ About the campaign
+Página pública da campanha · ⇒ Campaign public page ·
+Não coube neste navegador. Revogue um link antigo e tente de novo. ⇒ It didn't fit in this browser. Revoke an old link and try again.
 `;function u(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
