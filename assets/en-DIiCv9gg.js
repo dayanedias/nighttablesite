@@ -2642,6 +2642,8 @@ A mesa não tem um mapa enviado para compartilhar. ⇒ The table has no uploaded
 Escolha o que compartilhar. ⇒ Choose what to share.
 A galeria local guarda até {} envios. Apague algum antes. ⇒ The local gallery holds up to {} submissions. Delete one first.
 A galeria local encheu este navegador. Apague um envio antigo e tente de novo. ⇒ The local gallery filled up this browser. Delete an old submission and try again.
+Próxima rolagem em {} s ⇒ Next roll in {} s
+Aguarde {} s para rolar de novo. ⇒ Wait {} s to roll again.
 `;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
