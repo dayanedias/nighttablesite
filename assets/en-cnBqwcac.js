@@ -2740,6 +2740,37 @@ Fichas ⇒ Sheets
 Áudio ⇒ Audio
 Mesa ⇒ Table
 Tudo ⇒ All
+Convite da mesa ⇒ Table invite
+Cenas da campanha ⇒ Campaign scenes
+Cenário atual ⇒ Current scene
+Rolagem livre ⇒ Free roll
+Skin dos dados ⇒ Dice skin
+Gatilhos de cena ⇒ Scene triggers
+Sessão ⇒ Session
+Apresentação e página pública ⇒ Showcase and public page
+Notas da cena ⇒ Scene notes
+Objetivos, pistas e perguntas ⇒ Objectives, clues and questions
+Diário da campanha ⇒ Campaign journal
+Geradores aleatórios ⇒ Random generators
+Pedir teste · rolagem em grupo ⇒ Request a check · group roll
+loja ⇒ shop
+Biblioteca · npcs e itens ⇒ Library · NPCs and items
+Handouts ⇒ Handouts
+handouts ⇒ handouts
+Distribuir loot ⇒ Distribute loot
+Teste resistido ⇒ Opposed check
+Tokens da cena ⇒ Scene tokens
+iniciativa ⇒ initiative
+Sprites prontos ⇒ Ready-made sprites
+Voz da mesa · discord ⇒ Table voice · Discord
+Áudio para todos ⇒ Audio for everyone
+Recursos experimentais ⇒ Experimental features
+Sistema de regras ⇒ Rules system
+Auditoria ⇒ Audit
+auditoria ⇒ audit
+Backup da mesa ⇒ Table backup
+Controle da mesa ⇒ Table control
+Zona de perigo ⇒ Danger zone
 `;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
