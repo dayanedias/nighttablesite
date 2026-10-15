@@ -449,10 +449,10 @@ alguém ⇒ someone
 ⚑ decisão ⇒ ⚑ decision
 decisão ⇒ decision
 Você ⇒ You
-Só o Mestre narra aqui (/gm fala com ele) ⇒ Only the GM narrates here (/gm talks to them)
-Fora do jogo... (@nome, /w Nome, /gm) ⇒ Out of game... (@name, /w Name, /gm)
-Narre a cena para a mesa... ⇒ Narrate the scene for the table...
-Fale com a mesa... (@nome, /w Nome sussurro, /gm privado) ⇒ Talk to the table... (@name, /w Name whisper, /gm private)
+Só o Mestre narra aqui (/gm fala com ele, /r 1d20 rola) ⇒ Only the GM narrates here (/gm talks to them, /r 1d20 rolls)
+Fora do jogo... (@nome, /w Nome, /gm, /r 2d6) ⇒ Out of game... (@name, /w Name, /gm, /r 2d6)
+Narre a cena para a mesa... (/r 1d20 rola dados) ⇒ Narrate the scene for the table... (/r 1d20 rolls dice)
+Fale com a mesa... (@nome, /w Nome sussurro, /gm privado, /r 2d20+3 rola dados) ⇒ Talk to the table... (@name, /w Name whisper, /gm private, /r 2d20+3 rolls dice)
 Comemorar ⇒ Celebrate
 Preparando anexo ⇒ Preparing attachment
 Anexar imagem ou arquivo ⇒ Attach image or file
@@ -2723,6 +2723,23 @@ Escolher do arsenal ⇒ Choose from the arsenal
 Escolha uma arma, proteção ou item… ⇒ Choose a weapon, protection or item…
 Pôr na ficha ⇒ Add to sheet
 {} pegou {} do arsenal ⇒ {} took {} from the arsenal
+Shift+Enter: nova linha ⇒ Shift+Enter: new line
+Quais dados? Use /r 2d20+3. ⇒ Which dice? Use /r 2d20+3.
+/r {}: {} ⇒ /r {}: {}
+Ferramentas deste grupo ⇒ Tools in this group
+Ferramentas encontradas ⇒ Tools found
+Ir para · {} ferramentas ⇒ Go to · {} tools
+Ir para · {} ferramenta ⇒ Go to · {} tool
+{} encontradas · Enter abre a primeira ⇒ {} found · Enter opens the first
+{} encontrada · Enter abre a primeira ⇒ {} found · Enter opens the first
+Ir para {} ⇒ Go to {}
+Cena ⇒ Scene
+História ⇒ Story
+Dados ⇒ Dice
+Fichas ⇒ Sheets
+Áudio ⇒ Audio
+Mesa ⇒ Table
+Tudo ⇒ All
 `;function h(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
