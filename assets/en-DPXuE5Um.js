@@ -2676,6 +2676,8 @@ Remover todos do mapa ⇒ Remove all from map
 No mapa, botão direito num objeto (ou Delete com ele selecionado) também remove. ⇒ On the map, right-clicking an object (or Delete with it selected) also removes it.
 Abrir {} (arraste para mover; botão direito ou Delete remove) ⇒ Open {} (drag to move; right-click or Delete removes)
 Abrir {} (botão direito ou Delete remove) ⇒ Open {} (right-click or Delete removes)
+Abrir {} (posição bloqueada; botão direito ou Delete remove) ⇒ Open {} (position locked; right-click or Delete removes)
+A posição de {} está bloqueada. Desbloqueie no alfinete em "objeto interativo", no painel do Mestre. ⇒ {}'s position is locked. Unlock it with the pin under "interactive object" in the GM panel.
 Arquivos da campanha ⇒ Campaign files
 Arquivos da campanha ({}) ⇒ Campaign files ({})
 Buscar arquivo (nome, descrição, PDF, imagem…) ⇒ Search files (name, description, PDF, image…)
