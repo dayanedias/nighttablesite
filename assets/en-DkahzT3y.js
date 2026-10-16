@@ -2771,7 +2771,28 @@ auditoria ⇒ audit
 Backup da mesa ⇒ Table backup
 Controle da mesa ⇒ Table control
 Zona de perigo ⇒ Danger zone
-`;function h(...t){const o={};for(const r of t)for(const e of r.split(`
+Armas equipadas por ficha ⇒ Equipped weapons per sheet
+Sem limite ⇒ No limit
+Até {} ⇒ Up to {}
+Armas equipadas: {} de {} (limite da mesa) ⇒ Equipped weapons: {} of {} (table limit)
+guardada: equipe para atacar ⇒ stowed: equip it to attack
+{} está guardada: equipe para atacar. ⇒ {} is stowed: equip it to attack.
+Nesta mesa só dá para ter 1 arma equipada ({}): desequipe primeiro. ⇒ This table allows only 1 equipped weapon ({}): unequip it first.
+Nesta mesa só dá para ter {} armas equipadas ({}): desequipe uma primeiro. ⇒ This table allows only {} equipped weapons ({}): unequip one first.
+Só dá para vestir uma armadura por vez: tire {} primeiro. ⇒ You can only wear one armor at a time: take off {} first.
+{} pegou {} do arsenal (guardada: já está no limite de armas equipadas) ⇒ {} took {} from the arsenal (stowed: already at the equipped weapon limit)
+{} equipou {} ⇒ {} equipped {}
+{} desequipou {} ⇒ {} unequipped {}
+Arma (quantas equipadas: o Mestre define) ⇒ Weapon (how many can be equipped: the GM decides)
+Não: vale só de estar na mochila ⇒ No: it works just by being in the backpack
+Armadura (só 1 vestida) ⇒ Armor (only 1 worn)
+Outro equipável (anel, amuleto, ferramenta…) ⇒ Other equippable (ring, amulet, tool…)
+Dá para equipar? ⇒ Can it be equipped?
+Na mochila aparece o botão Equipar. Só equipado o item vale: ⇒ The backpack shows an Equip button. The item only works while equipped:
+os botões Ataque e Dano entram nas armas da ficha, ⇒ the Attack and Damage buttons join the sheet's weapons,
+a Defesa soma na ficha, ⇒ its Defense adds to the sheet,
+a rolagem ao usar e o bônus em perícia ficam ativos. Limite: 1 armadura por vez; armas, quantas o Mestre definir no sistema de regras. ⇒ its roll on use and skill bonus become active. Limit: 1 armor at a time; weapons, as many as the GM sets in the rules system.
+`;function p(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
-`)}return o}const p=h(i,n,d,l,m,c,u);export{p as default,h as parseDictionary};
+`)}return o}const h=p(i,n,d,l,m,c,u);export{h as default,p as parseDictionary};
