@@ -189,7 +189,7 @@ Importar ⇒ Import
 Tirar o conteúdo de exemplo (começar do zero) ⇒ Remove the sample content (start from scratch)
 Exportar como aventura reutilizável ⇒ Export as a reusable adventure
 Guardar o chat por ⇒ Keep the chat for
-Exporta a campanha inteira: cena e estado da mesa, fichas e retratos, tokens, cenas salvas, handouts, diário, notas, senhas e conteúdos dos objetos (mapas e áudios, se quiser). Importa também backups antigos. ⇒ Exports the whole campaign: scene and table state, sheets and portraits, tokens, saved scenes, handouts, journal, notes, codes and object contents (maps and audio, if you want). Also imports old backups.
+Exporta a campanha inteira: cena e estado da mesa, fichas e retratos, tokens, cenas salvas, handouts, diário, notas, senhas e conteúdos dos objetos (mapas e áudios, se quiser). Importa também backups antigos e campanhas do Foundry VTT (Export Data de cena, ator, diário ou aventura, ou o .db de um mundo) e do Roll20 (o .json do VTTES ou do R20Exporter): cenas com grade, paredes, portas e tokens, fichas e textos. Diários que os jogadores já viam viram handouts; os outros ficam escondidos no compêndio. ⇒ Exports the whole campaign: scene and table state, sheets and portraits, tokens, saved scenes, handouts, journal, notes, codes and object contents (maps and audio, if you want). Also imports old backups and campaigns from Foundry VTT (Export Data of a scene, actor, journal or adventure, or a world's .db file) and Roll20 (the .json from VTTES or R20Exporter): scenes with grid, walls, doors and tokens, sheets and texts. Journals the players could already see become handouts; the rest stay hidden in the compendium.
 controle da mesa ⇒ table control
 Modo onisciente ativo ⇒ Omniscient mode on
 Tokens de monstros ocultos estão visíveis apenas para você e podem ser arrastados livremente. ⇒ Hidden monster tokens are visible only to you and can be dragged freely.
@@ -1302,7 +1302,7 @@ Para criar e mestrar uma mesa, entre com uma conta cadastrada. ⇒ To create and
 Nome da campanha ⇒ Campaign name
 Subtítulo (opcional) ⇒ Subtitle (optional)
 Começar com ⇒ Start with
-Uma mesa vazia (sem fichas, tokens nem objetos: você monta tudo), a mesa de exemplo para conhecer o app, ou uma aventura que você exportou (painel do Mestre → "Exportar como aventura reutilizável"). Um backup de campanha também serve. ⇒ An empty table (no sheets, tokens or objects: you build everything), the sample table to get to know the app, or an adventure you exported (GM panel → "Export as a reusable adventure"). A campaign backup works too.
+Uma mesa vazia (sem fichas, tokens nem objetos: você monta tudo), a mesa de exemplo para conhecer o app, ou uma aventura que você exportou (painel do Mestre → "Exportar como aventura reutilizável"). Um backup de campanha também serve, e também uma campanha do Foundry VTT ou do Roll20. ⇒ An empty table (no sheets, tokens or objects: you build everything), the sample table to get to know the app, or an adventure you exported (GM panel → "Export as a reusable adventure"). A campaign backup works too, and so does a Foundry VTT or Roll20 campaign.
 Atributos, perícias, recursos e testes de base. Dá para ajustar depois. ⇒ Attributes, skills, resources and base checks. You can adjust them later.
 Recursos da campanha ⇒ Campaign features
 O que não for usar fica fora da tela. Dá para mudar depois. ⇒ What you won't use stays off the screen. You can change it later.
@@ -1317,7 +1317,7 @@ Mesa sem nome ⇒ Untitled table
 Excluir minha conta e meus dados ⇒ Delete my account and my data
 Mesa vazia ⇒ Empty table
 Mesa de exemplo ⇒ Sample table
-Aventura ou campanha salva (.json) ⇒ Saved adventure or campaign (.json)
+Aventura, campanha salva, Foundry ou Roll20 ⇒ Adventure, saved campaign, Foundry or Roll20
 Livre ⇒ Free
 Atualizar lista de mesas ⇒ Refresh table list
 Ex.: Ordem da Chuva ⇒ E.g.: Order of the Rain
@@ -2794,6 +2794,12 @@ Na mochila aparece o botão Equipar. Só equipado o item vale: ⇒ The backpack 
 os botões Ataque e Dano entram nas armas da ficha, ⇒ the Attack and Damage buttons join the sheet's weapons,
 a Defesa soma na ficha, ⇒ its Defense adds to the sheet,
 a rolagem ao usar e o bônus em perícia ficam ativos. Limite: 1 armadura por vez; armas, quantas o Mestre definir no sistema de regras. ⇒ its roll on use and skill bonus become active. Limit: 1 armor at a time; weapons, as many as the GM sets in the rules system.
+importada do {} ⇒ imported from {}
+{} mapa{} para enviar (o arquivo original está nas notas da cena) ⇒ {} map{} to upload (the original file is in the scene notes)
+Cena importada ⇒ Imported scene
+Importada do {} ⇒ Imported from {}
+da campanha importada ⇒ from the imported campaign
+O arquivo não é um backup do NightTable, do Foundry VTT nem do Roll20. ⇒ The file isn't a NightTable, Foundry VTT or Roll20 backup.
 `;function p(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
