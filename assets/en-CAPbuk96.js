@@ -2812,6 +2812,10 @@ Manter o mapa da cena ⇒ Keep the scene map
 Manter (sem mapa) ⇒ Keep (no map)
 Sem permissão para editar cenas. ⇒ No permission to edit scenes.
 Não foi possível editar a cena. ⇒ Could not edit the scene.
+Diminuir e aumentar os tokens selecionados (Mestre) ⇒ Shrink and enlarge the selected tokens (GM)
+Arraste para mudar o tamanho ({}%) ⇒ Drag to change the size ({}%)
+Tamanho de {} (%) ⇒ Size of {} (%)
+Tamanho livre: ⇒ Free size:
 `;function p(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
