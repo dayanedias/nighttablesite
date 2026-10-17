@@ -189,7 +189,7 @@ Importar ⇒ Import
 Tirar o conteúdo de exemplo (começar do zero) ⇒ Remove the sample content (start from scratch)
 Exportar como aventura reutilizável ⇒ Export as a reusable adventure
 Guardar o chat por ⇒ Keep the chat for
-Exporta a campanha inteira: cena e estado da mesa, fichas e retratos, tokens, cenas salvas, handouts, diário, notas, senhas e conteúdos dos objetos (mapas e áudios, se quiser). Importa também backups antigos e campanhas do Foundry VTT (Export Data de cena, ator, diário ou aventura, ou o .db de um mundo) e do Roll20 (o .json do VTTES ou do R20Exporter): cenas com grade, paredes, portas e tokens, fichas e textos. Diários que os jogadores já viam viram handouts; os outros ficam escondidos no compêndio. ⇒ Exports the whole campaign: scene and table state, sheets and portraits, tokens, saved scenes, handouts, journal, notes, codes and object contents (maps and audio, if you want). Also imports old backups and campaigns from Foundry VTT (Export Data of a scene, actor, journal or adventure, or a world's .db file) and Roll20 (the .json from VTTES or R20Exporter): scenes with grid, walls, doors and tokens, sheets and texts. Journals the players could already see become handouts; the rest stay hidden in the compendium.
+Exporta a campanha inteira: cena e estado da mesa, fichas e retratos, tokens, cenas salvas, handouts, diário, notas, senhas e conteúdos dos objetos (mapas e áudios, se quiser). Importa também backups antigos e campanhas de outros apps: Foundry VTT (Export Data ou o .db de um mundo), Roll20 (VTTES ou R20Exporter), MapTool (.cmpgn), Encounter+ e Shard (.module), Owlbear Rodeo (itens da cena), Improved Initiative (dados exportados) e World Anvil (export do mundo, .zip ou .json): cenas com grade, paredes, portas e tokens, mapas que vierem no pacote, fichas e textos. Textos que os jogadores já viam viram handouts (no World Anvil, o compêndio); os outros ficam escondidos no compêndio. ⇒ Exports the whole campaign: scene and table state, sheets and portraits, tokens, saved scenes, handouts, journal, notes, codes and object contents (maps and audio, if you want). Also imports old backups and campaigns from other apps: Foundry VTT (Export Data or a world's .db file), Roll20 (VTTES or R20Exporter), MapTool (.cmpgn), Encounter+ and Shard (.module), Owlbear Rodeo (scene items), Improved Initiative (exported data) and World Anvil (world export, .zip or .json): scenes with grid, walls, doors and tokens, maps included in the package, sheets and texts. Texts the players could already see become handouts (for World Anvil, the compendium); the rest stay hidden in the compendium.
 controle da mesa ⇒ table control
 Modo onisciente ativo ⇒ Omniscient mode on
 Tokens de monstros ocultos estão visíveis apenas para você e podem ser arrastados livremente. ⇒ Hidden monster tokens are visible only to you and can be dragged freely.
@@ -1302,7 +1302,7 @@ Para criar e mestrar uma mesa, entre com uma conta cadastrada. ⇒ To create and
 Nome da campanha ⇒ Campaign name
 Subtítulo (opcional) ⇒ Subtitle (optional)
 Começar com ⇒ Start with
-Uma mesa vazia (sem fichas, tokens nem objetos: você monta tudo), a mesa de exemplo para conhecer o app, ou uma aventura que você exportou (painel do Mestre → "Exportar como aventura reutilizável"). Um backup de campanha também serve, e também uma campanha do Foundry VTT ou do Roll20. ⇒ An empty table (no sheets, tokens or objects: you build everything), the sample table to get to know the app, or an adventure you exported (GM panel → "Export as a reusable adventure"). A campaign backup works too, and so does a Foundry VTT or Roll20 campaign.
+Uma mesa vazia (sem fichas, tokens nem objetos: você monta tudo), a mesa de exemplo para conhecer o app, ou uma aventura que você exportou (painel do Mestre → "Exportar como aventura reutilizável"). Um backup de campanha também serve, e também uma campanha do Foundry VTT, Roll20, MapTool, Encounter+, Owlbear Rodeo, Improved Initiative ou World Anvil. ⇒ An empty table (no sheets, tokens or objects: you build everything), the sample table to get to know the app, or an adventure you exported (GM panel → "Export as a reusable adventure"). A campaign backup works too, and so does a campaign from Foundry VTT, Roll20, MapTool, Encounter+, Owlbear Rodeo, Improved Initiative or World Anvil.
 Atributos, perícias, recursos e testes de base. Dá para ajustar depois. ⇒ Attributes, skills, resources and base checks. You can adjust them later.
 Recursos da campanha ⇒ Campaign features
 O que não for usar fica fora da tela. Dá para mudar depois. ⇒ What you won't use stays off the screen. You can change it later.
@@ -1317,7 +1317,7 @@ Mesa sem nome ⇒ Untitled table
 Excluir minha conta e meus dados ⇒ Delete my account and my data
 Mesa vazia ⇒ Empty table
 Mesa de exemplo ⇒ Sample table
-Aventura, campanha salva, Foundry ou Roll20 ⇒ Adventure, saved campaign, Foundry or Roll20
+Aventura, campanha salva ou de outro app ⇒ Adventure, saved campaign or from another app
 Livre ⇒ Free
 Atualizar lista de mesas ⇒ Refresh table list
 Ex.: Ordem da Chuva ⇒ E.g.: Order of the Rain
@@ -2800,6 +2800,10 @@ Cena importada ⇒ Imported scene
 Importada do {} ⇒ Imported from {}
 da campanha importada ⇒ from the imported campaign
 O arquivo não é um backup do NightTable, do Foundry VTT nem do Roll20. ⇒ The file isn't a NightTable, Foundry VTT or Roll20 backup.
+O ZIP não tem uma campanha que o NightTable reconheça (MapTool, Encounter+, World Anvil ou JSON). ⇒ The ZIP has no campaign NightTable recognizes (MapTool, Encounter+, World Anvil or JSON).
+O arquivo ZIP está incompleto ou corrompido. ⇒ The ZIP file is incomplete or corrupted.
+O ZIP usa uma compressão que o navegador não lê. ⇒ The ZIP uses a compression the browser can't read.
+Não foi possível ler o arquivo ZIP. ⇒ Couldn't read the ZIP file.
 `;function p(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
