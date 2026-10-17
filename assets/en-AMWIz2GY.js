@@ -2804,6 +2804,14 @@ O ZIP não tem uma campanha que o NightTable reconheça (MapTool, Encounter+, Wo
 O arquivo ZIP está incompleto ou corrompido. ⇒ The ZIP file is incomplete or corrupted.
 O ZIP usa uma compressão que o navegador não lê. ⇒ The ZIP uses a compression the browser can't read.
 Não foi possível ler o arquivo ZIP. ⇒ Couldn't read the ZIP file.
+Editar nome, mapa, clima, áudio e abertura ⇒ Edit name, map, weather, audio and opening
+Editar a cena {} ⇒ Edit scene {}
+Salvar cena ⇒ Save scene
+Salvando… ⇒ Saving…
+Manter o mapa da cena ⇒ Keep the scene map
+Manter (sem mapa) ⇒ Keep (no map)
+Sem permissão para editar cenas. ⇒ No permission to edit scenes.
+Não foi possível editar a cena. ⇒ Could not edit the scene.
 `;function p(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
