@@ -2816,6 +2816,10 @@ Diminuir e aumentar os tokens selecionados (Mestre) ⇒ Shrink and enlarge the s
 Arraste para mudar o tamanho ({}%) ⇒ Drag to change the size ({}%)
 Tamanho de {} (%) ⇒ Size of {} (%)
 Tamanho livre: ⇒ Free size:
+Quantidade de dano ou cura em {} ⇒ Damage or healing amount on {}
+Aplicar {} de dano em {} ⇒ Deal {} damage to {}
+Curar {} em {} ⇒ Heal {} on {}
+Não foi possível sincronizar com o servidor ({}). ⇒ Could not sync with the server ({}).
 `;function p(...t){const o={};for(const r of t)for(const e of r.split(`
 `)){const a=e.indexOf(" ⇒ ");if(a<=0)continue;const s=e.slice(0,a).replace(/\\n/g,`
 `);o[s]=e.slice(a+3).trim().replace(/\\n/g,`
